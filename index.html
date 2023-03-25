@@ -90,6 +90,7 @@
         --rcorners_text_margin:auto;
         --rcorners_text_pad_top:45px;
         --rcorners_trasition:0.4s;
+        --theam_color:#f38715;;
         }
         .rcorners1 {
                     border-radius: 100px;
@@ -104,7 +105,7 @@
                     transition: var(--rcorners_trasition);
                  }
                  .rcorners1:hover {
-                    background-color: rgb(252, 115, 66);
+                    background-color: var(--theam_color);
                   
                  }
                  .rcorners2 {
@@ -120,7 +121,7 @@
                     transition: var(--rcorners_trasition);
                  }
                  .rcorners2:hover {
-                    background-color: rgb(252, 115, 66);
+                    background-color:var(--theam_color);
                   
                  }
                  .rcorners3 {
@@ -136,8 +137,11 @@
                     transition: var(--rcorners_trasition);
                  }
                  .rcorners3:hover {
-                    background-color: rgb(252, 115, 66);
+                    background-color:var(--theam_color);
                   
+                 }
+                 .navLink:hover{
+                    background-color:var(--theam_color);
                  }
                  .prevent-select {
                     -webkit-user-select: none; /* Safari */
@@ -271,7 +275,7 @@
 
                     <a id="homeLink" class="navbar-brand " href="#">
                         <!-- <img src="https://picsum.photos/200" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> -->
-                        <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fprofile_pic.png?alt=media&token=c904ca8c-4838-4c39-9477-ce0de82f6bf2" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Fdp-circle.png?alt=media&token=31079bf0-7a07-4225-bfbf-5710053198a9" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                         <span class="fs-5 fw-bold ms-3">Dr. Asawari M. Fartade</span>
                     </a>
                     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -284,17 +288,17 @@
                       </button>
                     <div class="collapse navbar-collapse " id="collapsibleNavbar">
                         <ul class="navbar-nav ms-auto mb-2 gap-2">
-                            <li id="resumeLink" class="nav-item ">
-                                <a class="nav-link" href="#">Profile</a>
+                            <li id="resumeLink" class="nav-item">
+                                <a class="nav-link " href="#">Profile</a>
                             
                             </li>
                             <div class="vr d-none d-sm-block"></div>
                             <li id="patentsLink" class="nav-item ">
-                                <a class="nav-link" href="#">Patent</a>
+                                <a class="nav-link " href="#">Patent</a>
                             </li>
                             <div class="vr d-none d-sm-block"></div>
                             <li id="skillsLink" class="nav-item ">
-                                <a class="nav-link" href="#">Activities</a>
+                                <a class="nav-link " href="#">Activities</a>
                             </li>
                         </ul>
                     </div>
@@ -315,7 +319,7 @@
                          
                             <div class="col-sm d-flex ms-lg-4  justify-content-md-center">
 
-                                <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fprofile_pic.png?alt=media&token=c904ca8c-4838-4c39-9477-ce0de82f6bf2"
+                                <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Fdp-circle.png?alt=media&token=31079bf0-7a07-4225-bfbf-5710053198a9"
                                 class="rounded-circle mt-5 bigProfile"  alt="Cinque Terre">
 
                             </div>
@@ -324,17 +328,17 @@
                                 <div >
                                 
                                     <div>
-                                        <div class="fw-bold mt-3" style="font-size: 6em;">Hello</div>
+                                        <div class="fw-bold mt-3" style="font-size: 6em; color: #f38715;">Hello</div>
                                     </div>
                                     <div>
-                                        <div class="fw-bold fs-5 my-2">Dr. Asawari M. Fartade</div>
+                                        <div class=" fs-5 my-2">I'm <span class="fw-bold">Dr. Asawari M. Fartade</span> </div>
                                     </div>
                                     <div>
-                                        <div class="fs-5 mt-3 pe-md-5">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</div>
+                                        <div class="fs-5 mt-3 pe-md-5">Asst. Professor and Woman Scientist with a passion for teaching and inspire  students for research. Believe in work hard,"Nothing is impossible the word itself says i am possible."</div>
                                     </div>
                                     <div  class="container " >
-                                    <div id="circleRow" class="row custom_class d-flex justify-content-md-start gap-1 gap-lg-3 mt-3">
-                                            <div class=" p-0 m-0 rcorners1"><p id="resumeCircle" class="prevent-select smallCircelText" >Profile</p></div>
+                                    <div id="circleRow" class="row custom_class d-flex justify-content-md-start gap-1 gap-lg-3 mt-3 mb-4">
+                                            <div class=" p-0 m-0 rcorners1" ><p id="resumeCircle" class="prevent-select smallCircelText"  >Profile</p></div>
                                             <div class=" p-0 m-0 rcorners2"><p id="patentsCircle" class=" prevent-select smallCircelText" >Patent</p></div>
                                             <div class=" p-0 m-0 rcorners3"><p id="skillsCircle" class=" prevent-select smallCircelText" >Activities</p></div>
                                     </div>
@@ -362,16 +366,34 @@
                                 <h2 class="fw-bold">Work Experience</h2>
                             </div>
                             <div class="col-lg-2">
-                                2015 - Present
+                                2017 - Present
                             </div>
                             <div class="col-lg-5 text-wrap">
                                 
-                                <span class="fw-bold ">Women scientist</span>
-                                <br><span class="">WOS A DST (New Delhi) MRP in Department of
-                                    Zoology, Shri Shivaji Mahavidylya, Barshi.</span>
+                                <span class="fw-bold ">Asst. Professor</span>
+                                <br><span class="fw-normal ">Department of Zoology
+                                    Shri Shivaji Mahavidyalaya, Barshi.</span>
                             
                             </div>
                         </div>
+
+                        <div class="row mt-5">
+                            <div class="col-lg-5 fw-bold fs-1">
+                                <h1></h1>
+                            </div>
+                            <div class="col-lg-2">
+                                2015 - 2017
+                            </div>
+                            <div class="col-lg-5 text-wrap">
+                                
+                                <span class="fw-bold ">Women scientist (Post Doctorate Fellow)</span>
+                                <br><span class="">WOS-A DST (New Delhi) MRP
+                                    Department of Zoology
+                                    Shri Shivaji Mahavidyalya, Barshi.</span>
+                            </div>
+                        </div>
+
+
                         <div class="row mt-5">
                             <div class="col-lg-5 fw-bold fs-1">
                                 <h1></h1>
@@ -504,7 +526,7 @@
                         </div>
                        
                         <!-- ======= Skills & Expertise Section ======= -->
-                        <div class="row">
+                        <div class="row ">
                             <div class="container my-5">
                                 <div class="bg-dark border"></div>
                             </div>
@@ -521,7 +543,7 @@
                             
                             </div>
                         </div>
-                        <div class="row mt-5">
+                        <div class="row my-5">
                             
                             <div class="col-lg-5 fw-bold fs-1">
                                 <h1></h1>
@@ -561,7 +583,8 @@
                             <div class=" col-11">
                                 <div class="ratio ratio-16x9 ">
                                     <!-- <iframe width="1015" height="571" src="https://www.youtube.com/embed/HNsSAA6OHaw" title="16 Coolest Gadgets You Can Buy | HINDI | NEW TECH GADGETS 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                                    <iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/HNsSAA6OHaw" title="16 Coolest Gadgets You Can Buy | HINDI | NEW TECH GADGETS 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <!-- <iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/HNsSAA6OHaw" title="16 Coolest Gadgets You Can Buy | HINDI | NEW TECH GADGETS 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                                    <iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/przzrXnfKbE" title="16 Coolest Gadgets You Can Buy | HINDI | NEW TECH GADGETS 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLsyvDWwjkTqtOmqAiTzzfHspTAztB-udL" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/JfJYHfrOGgQ" frameborder="0" gesture="media" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
@@ -591,7 +614,7 @@
                             </div>
 
                         </div>
-                        <div class="row my-5 gy-4">
+                        <div class="row my-5 gy-4 justify-content-center">
                             <div class="col-md-3 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-slide-to="0">
                                 <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Ffig-1.png?alt=media&token=9a209b5e-4794-416f-8ebf-62233b9a740e" alt="Avatar Logo"  class="rounded img-fluid ">
                             </div>
@@ -604,6 +627,19 @@
                             <div class="col-md-3 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-slide-to="3">
                                 <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Ffig-4.png?alt=media&token=d6e66b7f-0810-463a-8344-9a67343c7963" alt="Avatar Logo"  class="rounded img-fluid">
                             </div>
+                            <div class="col-md-3 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-slide-to="3">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Ffig-5.png?alt=media&token=d6e66b7f-0810-463a-8344-9a67343c7963" alt="Avatar Logo"  class="rounded img-fluid">
+                            </div>
+                            <div class="col-md-3 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-slide-to="3">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Ffig-6.png?alt=media&token=d6e66b7f-0810-463a-8344-9a67343c7963" alt="Avatar Logo"  class="rounded img-fluid">
+                            </div>
+                            <div class="col-md-3 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-slide-to="3">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/freashcakes-7.appspot.com/o/images%2Fasawari_portfolio%2Ffig-7.png?alt=media&token=d6e66b7f-0810-463a-8344-9a67343c7963" alt="Avatar Logo"  class="rounded img-fluid">
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <h5 class="fw-bold">For more details click link below :</h5>
+                            <a href="https://ipindiaservices.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus">Indian patent : Electric brush patent</a>
                         </div>
                         <!-- <div class="row">
                             <div class="col-lg-2  bg-primary text-white p-3">
@@ -941,7 +977,7 @@
                     <!-- ======= awards end ======= -->
 
                     <!-- ======= Guidance to Student start ======= -->
-                    <div class="row mt-5">
+                    <div class="row mt-5 mb-5">
                             
                         <div class="container my-5">
                             <div class="bg-dark border"></div>
@@ -969,20 +1005,20 @@
             </div>
             <!-- content end -->
             <!-- footer -->
-            <div id="footer" class="container my-5 ">
+            <div id="footer " class="container mb-3 ">
              
                 <div class="row bg-dark border "></div>
                 <div class="container mt-4 px-4">
                     <div class="row gx-5">
-                        <div class="col-md-4 p-3">
+                        <!-- <div class="col-md-4 p-3">
                             <div class="fw-bold">Phone</div>
                             <div>+91-0000 0000 00</div>
-                        </div>
+                        </div> -->
                         <div class="col-md-4 p-3">
                             <div class="fw-bold">Email</div>
                             <div>alankar.fartade@gmail.com</div>
                         </div>
-                        <div class="col-sm-4 p-3">
+                        <!-- <div class="col-sm-4 p-3">
                             <div class="fw-bold">Follow Me</div>
                             <div class="d-flex">
                                 <div class="">
@@ -1001,12 +1037,12 @@
                                     </div>
                             </div>
                           
-                        </div>
+                        </div> -->
                     </div>
     
     
-                    <div class="row">
-                        <div class="mt-3" style="font-size: 12px;"><span class="fw-bold">DECLARATION : </span> I hereby declare that the
+                    <div class="row ">
+                        <div class="mt-1" style="font-size: 12px;"><span class="fw-bold">DECLARATION : </span> I hereby declare that the
                             above-mentioned information is correct up to my knowledge and I bear
                             the responsibility for the correctness of the above-mentioned particulars.</div>
                     </div>
